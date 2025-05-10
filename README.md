@@ -38,9 +38,9 @@ The script will automatically install these dependencies if they are not already
 
 2. Run the script:
 
-  ```bash
-  ./split-album.sh
-  ```
+   ```bash
+   ./split-album.sh
+   ```
 
 3. Follow the prompts to select the .cue file to split the album.
 
@@ -77,3 +77,5 @@ and title (e.g., `01 - Track Title.flac`, `02 - Track Title.flac`, etc.).
 - The `tracks/` directory will be created if it doesn't exist, and the individual tracks will be saved there.
 
 - The script checks if the required packages (`cuetools`, `shntool`, `flac`, and `ffmpeg`) are installed before attempting to install them.
+
+- Use your own utilities to add metadata to the tracks.
